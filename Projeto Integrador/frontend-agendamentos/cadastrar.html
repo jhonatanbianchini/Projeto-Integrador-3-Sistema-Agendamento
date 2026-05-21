@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="form-box">
+
+    <h1>Cadastrar</h1>
+
+    <input
+      type="text"
+      id="usuario"
+      placeholder="Usuário"
+    >
+    <input type="email" id="email" placeholder="E-mail" required>
+
+    <input
+      type="password"
+      id="senha"
+      placeholder="Senha"
+    >
+
+    <button onclick="cadastrar()">
+      Cadastrar
+    </button>
+
+    <div class="link">
+      <a href="index.html">
+        Possuo uma conta
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="./js/api.js"></script>
+<script src="./js/cadastro.js"></script>
+
+</body>
+</html>

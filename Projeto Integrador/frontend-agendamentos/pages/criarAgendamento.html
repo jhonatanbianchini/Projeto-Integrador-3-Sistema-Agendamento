@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar Agendamento</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<div class="topo">
+
+  <a href="./agendamentos.html">
+    <button>
+      Agendamentos
+    </button>
+  </a>
+
+</div>
+
+<div class="container">
+
+  <div class="form-box">
+
+    <h1>Criar Agendamento</h1>
+
+    <input
+      type="text"
+      id="nomeCliente"
+      placeholder="Cliente"
+    >
+
+    <input
+      type="text"
+      id="nomeBarbeiro"
+      placeholder="Barbeiro"
+    >
+
+    <input
+      type="time"
+      id="horario"
+    >
+
+    <input
+      type="date"
+      id="data"
+    >
+
+    <button onclick="criarAgendamento()">
+      Criar
+    </button>
+
+  </div>
+
+</div>
+
+<script src="../js/api.js"></script>
+<script src="../js/criarAgendamento.js"></script>
+
+</body>
+</html>
